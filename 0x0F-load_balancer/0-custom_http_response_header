@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # script that Configure Nginx so that its HTTP response contains a custom header
 sudo apt-get update
 sudo apt-get -y install nginx
