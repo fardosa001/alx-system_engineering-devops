@@ -28,7 +28,7 @@ def get_todo_list(employee_id):
                                                           TOTAL_NUM_OF_TASKS))
     # completed task
     for task in done_tasks:
-        print("\t{}".format(task['title']))
+        print("\t {}".format(task['title']))
 
 
 if __name__ == "__main__":
