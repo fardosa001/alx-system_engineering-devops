@@ -11,10 +11,8 @@ def top_ten(subreddit):
     data = {}
     headers = {"User-Agent": "Custom User Agent"}
 
-    resp = requests.get(url, headers=headers, allow_redirects=False)
-    if resp.status_code == 200:
-        data = resp.json()
-    top_ten_posts = data.get('data', {}).get('children', [])
+    resp = requests.get(url, headers=headers, allow_redirects=False).json()
+    top_ten_posts = resp.get('data', {}).get('children', [])
     if not top_ten_posts:
         print(None)
     for post in top_ten_posts:
