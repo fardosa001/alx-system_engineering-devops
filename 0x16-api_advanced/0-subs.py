@@ -13,6 +13,6 @@ def number_of_subscribers(subreddit):
     # make the API request
     resp = requests.get(url, headers=headers).json()
     subscribers = resp.get('data', {}).get('subscribers')
-    if not subscribers:
+    if resp.status_code in [302, 404]:
         return 0
     return subscribers
