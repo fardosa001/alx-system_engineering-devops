@@ -8,7 +8,7 @@ def number_of_subscribers(subreddit):
     # set url strings
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
 
-    headers = {"User-Agent": "Custom User Agent"}
+    headers = {"User-Agent": "python/requests"}
 
     # make the API request
     resp = requests.get(url, headers=headers).json()
