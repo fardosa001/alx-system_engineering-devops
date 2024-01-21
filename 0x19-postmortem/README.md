@@ -2,9 +2,9 @@ Internal Server 500 Error Outage
 
 Issue Summary:
 
-Duration: January 20, 2024, 08:00 AM to 10:30 AM (UTC)
+Duration: 20th Jan 2024, from 08:00 AM to 20th Jan 2024 9:00 AM (UTC).
 
-Impact: 500 Internal Server Error affected 30% of users, causing slow responses and intermittent service disruptions.
+Impact: The campany's website threw a 500 Internal Server Error affected 100% of users, causing slow responses and intermittent service disruptions.
 
 Root Cause:
 
