@@ -1,12 +1,17 @@
  The Great 500 Fiasco🚀💥
 
 Issue Summary:
+
 Duration: 20th Jan 2024, from 08:00 AM to 20th Jan 2024 9:00 AM (UTC).
+
 Impact: The company’s website threw a 500 Internal Server Error tantrum, playing hide-and-seek with 100% of the users. Everyone experienced slow responses, and the website thought intermittent service disruptions were the latest trend.
+
 Root Cause:
+
 The server had a wild party with misconfigured settings, forgot to log errors, and left everyone clueless.
 
 Timeline:
+
 08:00 AM (UTC): Automated monitoring spots 500 errors.
 
 08:10 AM (UTC): Investigation kicks off, suspecting code mischief.
